@@ -56,6 +56,10 @@ Defines which type of aggregation is applied.
 | Maximum | The maximum of all values of an attribute from the list of objects. |
 | Sum | The sum of all values of an attribute from the list of objects. |
 
+{{% alert type="info" %}}
+When using the 'Average', 'Min' or 'Max' functions on an empty list, the return variable is empty.
+{{% /alert %}}
+
 ### 3.3 Attribute
 
 Defines which attribute of the objects in the list is used to aggregate over. This must be a numeric attribute (Long, Integer, or Decimal).
